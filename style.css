@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* minmax(200px, 1fr) is min-width of each box */
+  grid-auto-rows: 6rem;
+  gap: 1rem;
+}
+
+.box {
+  background-color: rgb(32, 94, 94);
+}
